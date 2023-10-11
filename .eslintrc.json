@@ -1,0 +1,9 @@
+{
+    "extends": ["@mrozio/eslint-config/typescript"],
+    "rules": {
+        "max-len": 0
+    },
+    "parserOptions": {
+        "project": "./tsconfig.json"
+    }
+}
