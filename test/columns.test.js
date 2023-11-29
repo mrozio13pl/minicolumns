@@ -1,6 +1,8 @@
+require('ts-node/register');
+
 const { suite } = require('uvu');
 const { is } = require('uvu/assert');
-const { column } = require('../dist');
+const { column } = require('../src');
 
 const test = suite('columns');
 

@@ -1,5 +1,7 @@
 /* eslint-disable */
-const { column, row } = require('./dist');
+require('ts-node').register();
+
+const { column, row } = require('./src');
 
 console.log(
     column([

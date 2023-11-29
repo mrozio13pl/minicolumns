@@ -1,6 +1,8 @@
+require('ts-node/register');
+
 const { suite } = require('uvu');
 const { is } = require('uvu/assert');
-const { row } = require('../dist');
+const { row } = require('../src');
 
 const test = suite('rows');
 

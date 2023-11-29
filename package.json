@@ -38,6 +38,7 @@
   "devDependencies": {
     "@mrozio/eslint-config": "^1.0.1",
     "eslint": "^8.51.0",
+    "ts-node": "^10.9.1",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2",
     "uvu": "^0.5.6"
