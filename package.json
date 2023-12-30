@@ -2,14 +2,15 @@
   "name": "minicolumns",
   "version": "1.0.0",
   "description": "Create simple text columns.",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "sideEffects": false,
   "exports": {
     ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js"
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
     }
   },
   "repository": "mrozio13pl/minicolumns",
@@ -18,7 +19,7 @@
   "scripts": {
     "prepare": "npm run build && npm t",
     "build": "tsup src/index.ts --clean --dts --minify --format esm,cjs",
-    "test": "uvu test .js$"
+    "test": "uvu test .cjs$"
   },
   "files": [
     "dist"
@@ -32,13 +33,12 @@
     "row"
   ],
   "dependencies": {
-    "pads": "^1.1.1",
-    "strip-ansi": "7.1.0"
+    "pads": "^1.1.1"
   },
   "devDependencies": {
     "@mrozio/eslint-config": "^1.0.3",
     "eslint": "^8.56.0",
-    "ts-node": "^10.9.2",
+    "strip-ansi": "7.1.0",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3",
     "uvu": "^0.5.6"

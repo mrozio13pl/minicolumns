@@ -1,5 +1,5 @@
-import { column } from './column';
-import type { ColumnOptions } from './types';
+import { column } from './column.js';
+import type { ColumnOptions } from './types.js';
 
 /**
  * Generate columns from given rows.
