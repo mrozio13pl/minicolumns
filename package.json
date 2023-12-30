@@ -32,15 +32,15 @@
     "row"
   ],
   "dependencies": {
-    "pads": "^1.1.0",
-    "strip-ansi": "6.0.1"
+    "pads": "^1.1.1",
+    "strip-ansi": "7.1.0"
   },
   "devDependencies": {
-    "@mrozio/eslint-config": "^1.0.1",
-    "eslint": "^8.51.0",
-    "ts-node": "^10.9.1",
-    "tsup": "^7.2.0",
-    "typescript": "^5.2.2",
+    "@mrozio/eslint-config": "^1.0.3",
+    "eslint": "^8.56.0",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3",
     "uvu": "^0.5.6"
   },
   "packageManager": "^pnpm@8.9.0"
